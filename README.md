@@ -1,6 +1,7 @@
 First steps
-1. vagrant box add centos/7
-2. vagrant plugin add vagrant-vbguest
+1. git clone https://github.com/claflico/vagrant-demo.git
+2. vagrant box add centos/7
+3. vagrant plugin install vagrant-vbguest
 
 Basic
 1. cd basic

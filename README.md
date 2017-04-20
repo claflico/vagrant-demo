@@ -3,6 +3,9 @@ First steps
 2. vagrant box add centos/7
 3. vagrant plugin install vagrant-vbguest
 
+Default
+1. Review the default Vagrantfile
+
 Basic
 1. cd basic
 2. vagrant up
@@ -24,6 +27,7 @@ Port forward
 9. vagrant destroy -f
 
 Mounted directory
+NOTE: Not fully working yet, problem with permissions of mounted folder
 1. cd basic
 2. vagrant up
 3. Open web browser to http://127.0.0.1:8000
